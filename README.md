@@ -1,18 +1,19 @@
-# NLP-Classification
-# Creating a Branch in a GitHub Repository
+# Project Readme: Text Classification
 
-Branching is an essential feature in Git that allows you to work on multiple versions of a repository at the same time. Here are the steps to create a branch in a GitHub repository:
+## Introduction
+> This project aims to classify digital books from the Gutenberg corpus based on their authors and genres. The overall objective is to compare the performance of different machine learning algorithms and analyze the pros and cons of each.
 
-1. Go to the GitHub repository where you want to create a branch.
+## Files
+> The 'classifier.ipynb' contains the main code python code responsible for fetching the data and dumping it in form of .CSV in the same directory it is executed in 
+> 'requirements.txt' this file contains a list of the dependencies on which the project was done
 
-2. Click on the "Branch" button, which is located in the top right corner of the repository.
 
-3. In the "Branch" field, type the name for your new branch.
 
-4. Click the "Create branch" button to create your new branch.
+## How to run
+> Make sure the device is connected to the internet and run the following line in the command line to install all the necessary packages
 
-5. Now, you can start making changes to the new branch, and when you are ready, you can submit a pull request to merge your changes back into the main branch.
+```cli
+pip install requirements.txt 
+```
 
-6. You can switch between branches by clicking on the branch name in the "Branch" drop-down menu.
-
-By following these steps, you can easily create a new branch in a GitHub repository and start working on it independently from the main branch.
+> Run the classifier.ipynb file the results will be visible on the jupyter notebook itself.
